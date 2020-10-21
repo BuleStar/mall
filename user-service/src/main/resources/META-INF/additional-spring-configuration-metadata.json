@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.application.cloud.nacos.discovery.namespace",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.cloud.nacos.discovery.namespace."
+  }
+] }

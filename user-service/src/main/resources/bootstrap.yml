@@ -1,0 +1,25 @@
+alibaba:
+    cloud:
+        access-key: '****'
+        secret-key: '****'
+server:
+    port: 8091
+spring:
+    application:
+        name: user-service
+    cloud:
+        nacos:
+            config:
+                file-extension: yml
+                group: DEFAULT_GROUP
+                namespace: d027ac48-8226-4485-b0bb-401cb48cba18
+                server-addr: 127.0.0.1:8848
+            discovery:
+                namespace: d027ac48-8226-4485-b0bb-401cb48cba18
+                server-addr: 127.0.0.1:8848
+    profiles:
+        active: dev
+    redis:
+        host: localhost
+        database: 0
+        port: 6379
